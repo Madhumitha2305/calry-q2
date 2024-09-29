@@ -6,11 +6,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
-// Set up Express
+
 const app = (0, express_1.default)();
 const port = 3000;
 app.use(express_1.default.json());
-// JSON file to store the requests
+
 const DATA_FILE = path_1.default.join(__dirname, 'requests.json');
 // Utility to read the JSON file
 const readDataFile = () => {
