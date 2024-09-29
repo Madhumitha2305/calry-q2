@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ym1dsocb",
+    "guestName": "John Doe",
+    "roomNumber": 101,
+    "requestDetails": "Need extra towels",
+    "priority": 2,
+    "status": "received"
+  },
+  {
+    "id": "l4jlwigj",
+    "guestName": "Maddy",
+    "roomNumber": 240,
+    "requestDetails": "Shower not working",
+    "priority": 3,
+    "status": "completed"
+  }
+]
